@@ -43,8 +43,6 @@ public class Lab1 {
    */
   public static Graph<Integer> buildGraph() {
 
-Random rand= new Random();
-int vertices= 6+rand.nextInt(51);
     return new SimpleGraph(10, new int [] [] { {0, 3}, {0, 1}, {3, 1},{2, 3}, {2, 1}, {5, 1}, {0, 7}, {0, 9}, {3, 9},{4, 8}, {3, 4}, {6, 8} });
   }
 }
